@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+    background-color: #1E1E1E;;
+    color: #FFFFFF;
+}
+
+h1{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+b{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+input{
+    width: 400px;
+    color: #FFFFFF;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 30px;
+    font-size: 16px;
+    background-color: #1E1E1E;;
+    margin-left: 15px;
+}
+
+
+.issue{
+    margin-left: 30px;
+    color: #1E1E1E;;
+    height: 40px;
+    width: 500px;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.issue:hover{
+    cursor: pointer;
+}
+
+table{
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+    width: 1000px;
+    overflow: scroll;
+    margin-left: 30px;
+    
+}
+table tr{
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    text-align: center;
+    height: 40px;
+
+}
+
+table th,td{
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.book-list{
+    border: 1px solid #FFFFFF;
+}
+a{
+    color: #1E1E1E;;
+    cursor: pointer;
+}
+span{
+ text-align: center;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
